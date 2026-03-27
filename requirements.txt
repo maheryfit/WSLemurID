@@ -1,0 +1,13 @@
+flask
+numpy
+flask-sqlalchemy
+numpy
+tensorboard==2.19.0
+tensorflow==2.19.0
+keras==3.12.1
+tf_keras==2.19.0
+tensorflow_hub==0.16.0
+pillow
+flasgger
+flask-restful
+flask-restx
