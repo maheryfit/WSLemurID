@@ -50,13 +50,13 @@ rich==14.3.3
 rpds-py==0.30.0
 six==1.17.0
 SQLAlchemy==2.0.48
-tensorboard==2.19.0
+tensorboard
 tensorboard-data-server==0.7.2
-tensorflow==2.19.0
+tensorflow
 tensorflow-hub==0.16.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==3.3.0
-tf_keras==2.19.0
+tf_keras
 typing_extensions==4.15.0
 urllib3==2.6.3
 Werkzeug==3.1.7
