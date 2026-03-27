@@ -112,4 +112,4 @@ if __name__ == '__main__':
     print("Routes disponibles:")
     for rule in app.url_map.iter_rules():
         print(rule.endpoint, rule)
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
