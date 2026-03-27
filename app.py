@@ -12,6 +12,7 @@ app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # Swagger API config
 api = Api(app,
